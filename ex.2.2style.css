@@ -1,0 +1,129 @@
+
+
+body {
+    background-image: url(yellow.avif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+
+
+
+.container {
+     
+     text-align: center;
+     margin-top: 100px;
+    
+   
+}
+
+.title-word {
+    animation: color-animation 4s
+    linear infinite;
+    
+}
+
+.title-word-1 {
+
+    --color-1: #f4afbc;
+    --color-2: #a4c4ac;
+    --color-3: #E4A9A8;
+}
+
+
+.title-word-2{
+
+    --color-1: #a9d19a;
+    --color-2: rgb(242, 125, 176);
+    --color-3: #b6d1d6;
+}
+
+.title-word-3 {
+
+    --color-1: #AACFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ff8e8e;
+}
+
+.title-word-4 {
+
+    --color-1: #3D8DAE;
+    --color-2: #fc6868;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {color: var(--color-1)}
+    32% {color: var(--color-1)}
+    33% {color: var(--color-2)}
+    65% {color: var(--color-2)}
+    66% {color: var(--color-3)}
+    99% {color: var(--color-3)}
+    100% {color: var(--color-1)}
+}
+
+.stanza1 {
+   margin-left: 525px;
+    width:350px;
+    text-align: center;
+     color:#f4afbc ;
+}
+
+.stanza2 {
+   margin-left: 525px;
+    width: 350px;
+   color:#f4afbc;
+   text-align: center;
+}
+
+.milkshake {
+    margin-left: 525px;
+    width:350px;
+    text-align: center;
+
+}
+
+.stanza2cont {
+    margin-left: 525px;
+    width:350px;
+    color:#f4afbc;
+    text-align: center;
+}
+
+.stanza3 {
+    margin-left: 525px;
+    width:350px;
+    color:#f4afbc;
+    text-align: center;
+}
+
+.books{
+    margin-left: 525px;
+    width:350px;
+    text-align: center;
+}
+
+.stanza3cont {
+    margin-left: 525px;
+    width: 350px;
+    color: #f4afbc;
+    text-align: center;
+}
+
+
+.button {
+    background-color: #3D8DAE;
+    border: none;
+    color:white;
+    padding: 2px 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

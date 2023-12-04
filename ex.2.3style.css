@@ -1,0 +1,32 @@
+
+
+
+body {
+    background-color: rgb(15, 15, 14);
+}
+.background {
+    background-image: url(CAAMP2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3em;
+    color: rgb(15, 15, 14);
+    opacity: .9;
+    align-content: center;
+   
+}
+
+
+.button {
+    background-color: #efe071;
+    border: none;
+    color:white;
+    padding: 2px 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

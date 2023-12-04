@@ -1,0 +1,90 @@
+
+*{
+    margin: 500;
+    padding:100;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background-color: #f4afbc;
+          
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:indianred;
+   
+}
+
+
+.left{
+    float: left;
+    width:300px;
+    border: 3px solid;
+    padding: 25px;
+    margin-top: 25px;
+    margin-left:400px ;
+    color:indianred;
+
+    background-image: url(wp2958933-cute-strawberry-wallpaper.jpg);
+
+  
+   
+}
+
+.center {
+    float: right;
+    width: 300px;
+    height:fit-content;
+    border: 3px solid;
+    padding:25px;
+    margin-right: 350px;
+    margin-top: 200px;
+    color:indianred;
+
+    background-image: url(wp2958933-cute-strawberry-wallpaper.jpg) ;
+}
+
+.right {
+    float: left;
+    width: 300px;
+    height: fit-content;
+    border: 3px solid;
+    padding: 25px;
+    margin-left: 325px;
+    margin-top: 150px;
+    color:indianred;
+
+    background-image: url(wp2958933-cute-strawberry-wallpaper.jpg);
+}
+
+.overflow {
+    background-image: url(bw\ caamp\ 2.jpeg);
+    background-size: 400px 210px;
+    width:400px;
+    height:210px;
+    border: 3px solid;
+    overflow: scroll;
+    float:right;
+    margin-top: 175px;
+    padding: 25px;
+    margin-right: 325px;
+}
+
+
+.button {
+    background-color: indianred;
+    border: none;
+    color:white;
+    padding: 2px 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 1300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

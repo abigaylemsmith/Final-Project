@@ -1,0 +1,46 @@
+
+.boxmodel {
+
+    background-color: rgb(117, 181, 196);
+    width:500px;
+    border: 15px rgb(251, 182, 182);
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    font-family:cursive;
+    color:azure;
+    font-size: small;
+    content: center;
+    margin-left: 50px;
+   
+}
+
+.boxmodel2 {
+
+    background-color: rgb(182, 213, 220);
+    width:500px;
+    border: 15px rgb(251, 182, 182);
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    font-family:fantasy;
+    color:azure;
+    font-size: small;
+    content: center;
+    margin-left: 50px;
+   
+}
+
+.right {
+    float:right;
+    width:auto;
+    height: auto;
+    border: 2px solid rgb(2, 2, 2);
+   padding: 25px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: -600px;
+
+}
+   
+
